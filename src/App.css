@@ -1,0 +1,48 @@
+.fixnav{
+  position: fixed;
+  width: 60px;
+  height: 100%;
+  border: 3px solid black;
+  overflow: hidden;
+  transition: .3s;
+}
+
+/* .fixnav.show{
+  width: 260px;
+  transition: 0.3s;
+} */
+
+.fixnav:hover{
+  width: 200px;
+}
+
+.container{
+  width: 100%;
+  margin: auto;
+  border-color: 1px solid black;
+  padding-top: 20px;
+}
+
+.container a{
+  font-size: 20px;
+  padding: 12px;
+  display: grid;
+  grid-template-columns: max-content max-content;
+}
+
+.icon{
+  margin-right: 30px;
+  font-size: 25px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+ul li{
+  padding-top: 50px;
+  width: 100%;
+  margin: auto;
+  list-style-type: none;
+}
